@@ -1,0 +1,123 @@
+0 HEAD
+1 SOUR Ancestry.com Family Trees
+2 VERS (2010.3)
+1 GEDC
+2 VERS 5.5.1
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Sam /Tester/
+1 SEX M
+1 BIRT
+2 DATE 05/28/1990
+2 PLAC Waukesha, Waukesha, Wisconsin, USA
+1 FAMC @F1@
+0 @I10@ INDI
+1 NAME Sibling /Tester/
+1 BIRT
+2 DATE 1993
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Mary Ann /Mueller/
+1 SEX F
+1 BIRT
+2 DATE 12 Mar 1962
+2 PLAC Waukesha, WI
+1 MARR
+2 DATE 1988
+2 PLAC Waukesha, Wisconsin, USA
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I3@ INDI
+1 NAME Robert /Tester/
+1 SEX M
+1 BIRT
+2 DATE abt 1960
+1 FAMS @F1@
+1 FAMC @F3@
+0 @I4@ INDI
+1 NAME Hans /Mueller/
+2 GIVN Hans
+2 SURN Mueller
+1 NAME Hans /Müller/
+2 TYPE aka
+1 SEX M
+1 BIRT
+2 DATE ABT 1925
+2 PLAC Milwaukee, Milwaukee, Wisconsin, USA
+1 DEAT
+2 DATE 2010-2019
+2 PLAC Waukesha, Wisconsin, USA
+1 OCCU Machinist
+2 DATE 1950
+1 _MILT
+2 DATE 1944
+2 PLAC Europe
+1 SOUR @S1@
+2 PAGE Year: 1930; Census Place: Milwaukee
+2 _APID 1,6224::12345
+1 OBJE @O1@
+1 FAMS @F2@
+1 FAMC @F4@
+0 @I5@ INDI
+1 NAME Grandma /Living/
+1 SEX F
+1 BIRT
+2 DATE 05/28/1935
+1 FAMS @F2@
+0 @I6@ INDI
+1 NAME Walter /Tester/
+1 SEX M
+1 BIRT
+2 DATE 1920
+1 FAMS @F3@
+0 @I7@ INDI
+1 NAME Nodates /Tester/
+1 SEX F
+1 FAMS @F3@
+0 @I8@ INDI
+1 NAME Johann /Müller/
+1 SEX M
+1 BIRT
+2 DATE BET 1880 AND 1885
+2 PLAC Pommern, Preussen
+1 IMMI
+2 DATE 1905
+2 PLAC New York, NY
+1 DEAT
+2 DATE 3 FEB 1950
+1 FAMS @F4@
+0 @I9@ INDI
+1 NAME Anna /Schmidt/
+1 SEX F
+1 BIRT
+2 DATE Est. 1888
+1 FAMS @F4@
+0 @F1@ FAM
+1 HUSB @I3@
+1 WIFE @I2@
+1 CHIL @I1@
+1 CHIL @I10@
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 CHIL @I2@
+1 MARR
+2 DATE 1955
+0 @F3@ FAM
+1 HUSB @I6@
+1 WIFE @I7@
+1 CHIL @I3@
+0 @F4@ FAM
+1 HUSB @I8@
+1 WIFE @I9@
+1 CHIL @I4@
+0 @S1@ SOUR
+1 TITL 1930 United States Federal Census
+1 AUTH Ancestry.com
+1 PUBL Lehi, UT, USA
+1 _APID 1,6224::0
+0 @O1@ OBJE
+1 FILE hans_portrait.jpg
+2 FORM jpg
+2 TITL Hans in uniform
+0 TRLR

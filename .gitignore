@@ -1,0 +1,11 @@
+node_modules/
+.env
+# Private family data and everything derived from it stays local.
+data/*
+!data/.gitkeep
+!data/media/
+data/media/*
+!data/media/.gitkeep
+out/
+*.sqlite
+*.sqlite-*

@@ -1,0 +1,35 @@
+{
+  "name": "family-tree",
+  "version": "1.0.0",
+  "description": "Family history research agent and animated documentaries, one per family line",
+  "scripts": {
+    "pipeline": "tsx pipeline.ts",
+    "ingest": "tsx pipeline.ts ingest",
+    "summary": "tsx pipeline.ts summary",
+    "geocode": "tsx pipeline.ts geocode",
+    "typecheck": "tsc",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrwatts88/Family-Tree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrwatts88/Family-Tree/issues"
+  },
+  "homepage": "https://github.com/mrwatts88/Family-Tree#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.7"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  },
+  "type": "module"
+}

@@ -1,0 +1,24 @@
+{
+  "gedcom": "data/tree.ged",
+  "database": "data/family.sqlite",
+  "outputDir": "out",
+  "self": null,
+  "livingCutoffYear": 1925,
+  "allowNamedLiving": [],
+  "lines": [
+    {
+      "id": "mom",
+      "label": "Mom's side",
+      "root": { "parentOfSelf": "mother" },
+      "dedication": "For Mom, Christmas 2026",
+      "destination": null
+    },
+    {
+      "id": "dad",
+      "label": "Dad's side",
+      "root": { "parentOfSelf": "father" },
+      "dedication": "For Dad, Christmas 2026",
+      "destination": null
+    }
+  ]
+}
